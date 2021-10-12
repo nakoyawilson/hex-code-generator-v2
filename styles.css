@@ -59,9 +59,28 @@ button {
     border: none;
     cursor: pointer;
     background-color: #fff;
+    margin: 0.25rem;
 }
 
 button:hover {
     background-color: #000;
     color: #fff;
+}
+
+/* Media Queries */
+
+@media (max-width: 350px) {
+    .card {
+        background-color: #fff;
+        width: 210px;
+        height: 250px;
+        padding: 5px;
+    }
+    
+    .color {
+        background-color: #fff;
+        width: 200px;
+        height: 200px;
+    }
+    
 }
